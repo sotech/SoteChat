@@ -1,0 +1,16 @@
+{
+  "name": "sotechat",
+  "version": "1.0.0",
+  "description": "Chat de prueba de Sote",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "author": "Sotech",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "socket.io": "^4.0.0"
+  }
+}
