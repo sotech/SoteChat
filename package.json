@@ -4,7 +4,8 @@
   "description": "Chat de prueba de Sote",
   "main": "server.js",
   "scripts": {
-    "test": "nodemon server.js"
+    "test": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "Sotech",
   "license": "ISC",

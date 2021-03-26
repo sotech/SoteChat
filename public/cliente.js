@@ -1,7 +1,12 @@
 const socket = io();
 
 socket.on('bienvenida', payload => {
-    console.log("Mensaje del servidor: " + payload);
+    console.log("Mensaje del servidor: " + payload); 
+    document.getElementById('mensajes-servidor').innerHTML = payload;
+})
+
+socket.on('nuevo-cliente', payload => {
+    document.getElementById('cantidad-clientes').innerHTML = payload;
 })
 
 let formChat = document.getElementById('chat-form');
